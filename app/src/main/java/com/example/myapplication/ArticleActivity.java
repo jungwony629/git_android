@@ -52,6 +52,7 @@ public class ArticleActivity extends AppCompatActivity {
         final Bundle bundle = getIntent().getExtras();
         // Show Back button
         this.getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        getSupportActionBar().setElevation(0);
         getSupportActionBar().setDisplayShowCustomEnabled(true);
         getSupportActionBar().setCustomView(R.layout.article_actionbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
